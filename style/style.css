@@ -1,0 +1,46 @@
+body {
+  /* position: relative; */
+  /* width: 100%; */
+  /* margin-left: 60px; */
+  min-height: 100vh;
+  background-color: hsl(229, 57%, 11%);
+  background-image: url(../images/bg-desktop.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+div.col-3 {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* border-left-color: ; */
+  max-width: 28%;
+  height: 200px;
+}
+
+div.col-6 {
+  max-width: 45%;
+  height: 175px;
+  border-radius: 20px;
+}
+
+/* div.container-fluid {
+  position: fixed; */
+  /* position: absolute; */
+  /* margin-top: 28%;
+  margin-left:0;
+  margin-right:0;
+  margin-left: 300px;
+  margin-top: 315px; */
+/* } */
+
+.bg-primary {
+  background-color: hsl(228, 56%, 26%) !important;
+}
+main {
+    min-height: 100vh;
+}
