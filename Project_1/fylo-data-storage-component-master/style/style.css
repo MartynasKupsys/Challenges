@@ -44,3 +44,12 @@ div.col-6 {
 main {
     min-height: 100vh;
 }
+
+.img {
+  padding: .75rem;
+  margin: .5rem;
+  height: 40px;
+  width: 40px;
+  /* font-size: 20px; */
+  background-color: hsl(229, 57%, 11%);
+}
