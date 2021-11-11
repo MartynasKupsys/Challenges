@@ -18,12 +18,15 @@ div.col-3 {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   /* border-left-color: ; */
-  max-width: 28%;
+  /* max-width: 28%; */
+  max-width: 360px !important;
+  /* min-width: 300px !important; */
   height: 200px;
 }
 
 div.col-6 {
-  max-width: 45%;
+  /* max-width: 45%; */
+  max-width: 648px;
   height: 175px;
   border-radius: 20px;
 }
@@ -52,4 +55,8 @@ main {
   width: 40px;
   /* font-size: 20px; */
   background-color: hsl(229, 57%, 11%);
+}
+
+div img {
+  margin: 0 7px;
 }
